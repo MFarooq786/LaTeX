@@ -1,0 +1,23 @@
+\documentclass{book}
+\usepackage{bbm}
+\begin{document}
+How to write complex equations in LaTeX.
+\begin{equation}
+	\sigma_{t}^{2}=\sigma_{Landau}^{2}+\sigma_{jitter}^{2}+\sigma_{timewalk}^{2}
+\end{equation}
+\begin{equation}
+\sigma_{jitter}=\frac{N}{dV/dt}=\frac{t_{rise}}{(S/N)}
+\end{equation}
+\begin{equation}
+\sigma_{timewalk}=\Big[\frac{V_{th}}{S/t_{rise}}\Big]_{RMS}\propto\Big[\frac{N}{dV/dt}\Big]_{RMS}
+\end{equation}
+Write functions
+\begin{equation}
+\sum_{i}^{} V_{ij}^{*}V_{ik}= \left\{
+\begin{array}{ll}
+0 & \quad if (j\neq k) \\
+1 & \quad if (j = k)
+\end{array}
+\right.
+\end{equation}
+\end{document}
