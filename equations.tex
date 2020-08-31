@@ -1,5 +1,5 @@
-\documentclass{book}
-\usepackage{bbm}
+\documentclass[a4paper,12pt]{book}
+\usepackage{amsmath}
 \begin{document}
 How to write complex equations in LaTeX.
 \begin{equation}
@@ -19,5 +19,18 @@ Write functions
 1 & \quad if (j = k)
 \end{array}
 \right.
+\end{equation}
+Now the decay amplitude is:
+\begin{equation}
+\begin{split}
+< BC|H|A> & =<0|\int d^{3}r_{a}d^{3}r_{\bar{a}}d^{3}r_{b}d^{3}r_{\bar{b}}d^{3}r_{c}d^{3}r_{\bar{c}}d^{3}R\\
+& e^{-iP_{B}.\Big(\frac{m_{q}r_{b}+m_{\bar{c}}r_{\bar{b}}}{m_{q}+m_{\bar{b}}}\Big)}\psi^{*}_{B(r_{b}-r_{\bar{b}})}e^{-iP_{c}.\Big(\frac{m_{c}r_{c}+m_{\bar{q}}r_{\bar{c}}}{m_{c}+m_{\bar{q}}}\Big)}\psi^{*}_{c(r_{c}-r_{\bar{c}})}\nabla|0> 
+\end{split}
+\end{equation}
+$\overleftrightarrow{\nabla}$
+
+\date{\today}
+\begin{equation}
+R_{p_{T}}=\frac{\sum_{p_{T}}^{trk}(PV_{0})}{p_{T}^{jet}}
 \end{equation}
 \end{document}
